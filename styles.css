@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-    background-color: whitesmoke;
+    background-color: white;
     padding: 1%;
     margin: 3%;
 }
@@ -44,7 +44,9 @@ footer {
     height: 300px;
     margin: 1.5%;
 }
+.logoimage {
 
+}
 /*  ==================
     Navigation Styles:
     ==================
@@ -77,6 +79,7 @@ nav a:hover {
 .stocknav a:hover {
 color: hotpink;
 }
+
 /*  =============
     Table Styles:
     =============
