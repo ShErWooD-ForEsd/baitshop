@@ -12,6 +12,28 @@
     Main Styles:
     ============
 */
+body {
+    text-align: center;
+    background-color: black;
+    margin: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 3%;
+}
+
+.container
+
+footer {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    background-color: whitesmoke;
+    font-size: 1em;
+    font-variant: small-caps;
+    line-height: 2em;
+    padding-left: 1%;
+}
 
 /*  ==================
     Navigation Styles:
