@@ -43,10 +43,24 @@ footer {
     width: 400px;
     height: 300px;
     margin: 1.5%;
+    box-shadow: 0 4px 8px 0 turquoise, 0 6px 20px 0 orangered;
 }
+
 .logoimage {
     width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 turquoise, 0 6px 20px 0 turquoise;
 }
+
+header {
+    font-size: 3em;
+    font-weight: bold;
+    padding: 5%;
+    font-variant: small-caps;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
 /*  ==================
     Navigation Styles:
     ==================
@@ -68,7 +82,7 @@ li {
 }
 
 nav a {
-    color: orangered;
+    color: black;
     text-decoration: none;
 }
 
@@ -77,7 +91,7 @@ nav a:hover {
 }
 
 .stocknav a:hover {
-color: hotpink;
+    opacity: 0.5;
 }
 
 /*  =============
