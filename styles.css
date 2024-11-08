@@ -74,6 +74,9 @@ nav a:hover {
     font-weight: bold;
 }
 
+.stocknav a:hover {
+color: hotpink;
+}
 /*  =============
     Table Styles:
     =============
