@@ -14,13 +14,17 @@
 */
 body {
     text-align: center;
-    background-color: black;
+    background-image: url("Eveningsky.jpg");
     margin: 1%;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 3%;
 }
 
-.container
+.container {
+    background-color: whitesmoke;
+    padding: 1%;
+    margin: 3%;
+}
 
 footer {
     left: 0;
@@ -40,6 +44,42 @@ footer {
     ==================
 */
 
+nav,
+ul,
+li {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.2em;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 95%;
+    margin: auto;
+    padding: 4px;
+
+}
+
+nav a {
+    color: darkg;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.button {
+    color: black;
+    text-decoration: none;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    color: white;
+    padding: 8px 32px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
 /*  =============
     Table Styles:
     =============
