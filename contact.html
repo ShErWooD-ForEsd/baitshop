@@ -24,6 +24,36 @@
             </nav>
         </div>
 
+        <div class="formcontainer">
+            <form method="get" action="thankyou.html">
+
+                <fieldset>
+                    <legend style="font-size:30px"><b>Contact Information</b></legend>
+                    <label for="fname">
+                        First Name:
+                        <input autofocus type="text" name="fname" required id="fname" placeholder="First Name" />
+                    </label>
+                    <label for="lname">
+                        Last Name:
+                        <input type="text" name="lname" required id="lname" placeholder="Last Name" />
+                    </label>
+                    <label for="email">
+                        Email:
+                        <input type="email" name="email" required id="email" placeholder="Email" />
+                    </label>
+                    <br><br>
+                    <label for="inquiry">
+                        Inquiry:
+                        <input type="text" name="inquiry" required id="inquiry"
+                            placeholder="What can we help you find out?" />
+                    </label>
+
+                    <br>
+                    <input class="submit" type="submit" value="Submit" />
+                </fieldset>
+            </form>
+
+        </div>
         <footer>
             &#127907;<i>1919 Croft Rd &#8226; Springfield, OH 45503</i>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -31,45 +61,6 @@
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             &#x1F4E7; <a href="mailto:HowardsLakeside@Gmail.com">HowardsLakeside@Gmail.com</a>
         </footer>
-    </div>
-
-    <div class="formcontainer">
-        <form method="get" action="thankyou.html">
-
-            <fieldset>
-                <legend><b>Contact Information</b></legend>
-                <label for="fname">
-                    First Name:
-                    <input autofocus type="text" name="fname" required id="fname" placeholder="First Name" />
-                </label>
-                <label for="lname">
-                    Last Name:
-                    <input type="text" name="lname" required id="lname" placeholder="Last Name" />
-                </label>
-                <label for="email">
-                    Email:
-                    <input type="email" name="email" required id="email" placeholder="Email" />
-                </label>
-                <label for="phone">
-                    Phone:
-                    <input type="tel" name="phone" required id="phone" placeholder="Phone" />
-                </label>
-                <br>
-                <div class="formRow">
-                    <label><b>Preferred Contact Method</b></label>
-                    <select name="name" id="name" size="3" multiple>
-                        <option value="bottle">Bottle Message</option>
-                        <option value="email" selected>Email</option>
-                        <option value="phone">Phone call</option>
-                        <option value="text">Text</option>
-                        <option value="mail">Mail</option>
-                    </select>
-                </div>
-                <br>
-                <input class="submit" type="submit" value="Submit" />
-            </fieldset>
-        </form>
-
     </div>
 </body>
 

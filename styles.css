@@ -111,6 +111,7 @@ nav a:hover {
     padding: 25px;
     border: 2px solid turquoise;
     text-align: left;
+    font-variant: small-caps;
 }
 
 label {
@@ -123,13 +124,16 @@ input {
     position: absolute;
     left: 16%;
     width: 80%;
+    border: 1px dotted orangered;
 }
+
 .submit {
     width: initial;
-    background-color: orangered;
-    color: white;
+    background-color: turquoise;
+    color: black;
+    font-weight: bold;
     margin-left: 15%;
-    
+    font-variant: small-caps;
 }
 
 /*  ===================
