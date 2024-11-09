@@ -39,19 +39,6 @@ footer {
     padding-left: 1%;
 }
 
-.Stockimages {
-    width: 400px;
-    height: 300px;
-    margin: 1.5%;
-    box-shadow: 0 4px 8px 0 turquoise, 0 6px 20px 0 orangered;
-}
-
-.logoimage {
-    width: 100%;
-    height: auto;
-    box-shadow: 0 4px 8px 0 turquoise, 0 6px 20px 0 turquoise;
-}
-
 header {
     font-size: 3em;
     font-weight: bold;
@@ -112,6 +99,8 @@ nav a:hover {
     text-align: left;
     font-variant: small-caps;
     box-shadow: 0 4px 8px 0 turquoise, 0 6px 20px 0 orangered;
+    margin-top: 5%;
+    margin-bottom: 15%;
 }
 
 label {
@@ -136,7 +125,48 @@ input {
     font-variant: small-caps;
 }
 
+/*  =============
+    Media Styles:
+    =============
+*/
+
+.Stockimages {
+    width: 400px;
+    height: 300px;
+    margin: 1.5%;
+    box-shadow: 0 4px 8px 0 turquoise, 0 6px 20px 0 orangered;
+}
+
+.logoimage {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 turquoise, 0 6px 20px 0 turquoise;
+}
+
+video {
+    box-shadow: 0 4px 8px 0 turquoise, 0 6px 20px 0 orangered;
+    width: 95%;
+    padding: 1%;
+    margin: 1.5%;
+}
+
+.homeimages {
+    box-shadow: 0 4px 8px 0 turquoise, 0 6px 20px 0 orangered;
+    width: 45%;
+    padding: 1%;
+    margin: 1.5%;
+    width: 400px;
+    height: 300px;
+    
+}
+
+/*  ============
+    Flex Styles:
+    ============
+*/
+
 /*  ===================
     Media Query Styles:
     ===================
 */
+
