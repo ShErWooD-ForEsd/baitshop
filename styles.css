@@ -26,6 +26,14 @@ body {
     margin: 2%;
 }
 
+.home-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    padding: 1%;
+    margin: 2%;
+}
+
 footer {
     left: 0;
     bottom: 0;
@@ -46,6 +54,15 @@ header {
     font-variant: small-caps;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
+}
+
+.home-p {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+    margin-left: 5%;
 }
 
 /*  ==================
@@ -84,6 +101,25 @@ nav a:hover {
     Table Styles:
     =============
 */
+
+table {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 95%;
+}
+
+th {
+    font-weight: bold;
+    font-size: 1.4em;
+    border: .5px solid orangered;
+    background-color: turquoise;
+    box-shadow: .5px .5px orangered;
+}
+
+td {
+    width: 25em;
+    height: 5em;
+}
 
 /*  ============
     Form Styles:
@@ -145,11 +181,9 @@ input {
 
 .homeimages {
     box-shadow: 0 4px 8px 0 turquoise, 0 6px 20px 0 orangered;
-    width: 45%;
+    width: 95%;
     padding: 1%;
     margin: 1.5%;
-    width: 400px;
-    height: 300px;
 }
 
 video {
@@ -164,6 +198,10 @@ video {
     ============
 */
 
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 /*  ===================
     Media Query Styles:
@@ -256,5 +294,18 @@ video {
 
     body {
         margin-bottom: 5%;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    video {
+        display: none;
+    }
+
+    .home-p {
+        font-size: 1.2em;
     }
 }
