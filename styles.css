@@ -193,6 +193,11 @@ video {
     margin: 1.5%;
 }
 
+.largeimage {
+    width: 75%;
+    padding-top: 1%;
+}
+
 /*  ============
     Flex Styles:
     ============
