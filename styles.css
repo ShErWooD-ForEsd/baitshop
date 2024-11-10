@@ -131,8 +131,8 @@ input {
 */
 
 .Stockimages {
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
     margin: 1.5%;
     box-shadow: 0 4px 8px 0 turquoise, 0 6px 20px 0 orangered;
 }
@@ -141,13 +141,6 @@ input {
     width: 100%;
     height: auto;
     box-shadow: 0 4px 8px 0 turquoise, 0 6px 20px 0 turquoise;
-}
-
-video {
-    box-shadow: 0 4px 8px 0 turquoise, 0 6px 20px 0 orangered;
-    width: 95%;
-    padding: 1%;
-    margin: 1.5%;
 }
 
 .homeimages {
@@ -159,11 +152,11 @@ video {
     height: 300px;
 }
 
-.textcontainer {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+video {
+    box-shadow: 0 4px 8px 0 turquoise, 0 6px 20px 0 orangered;
+    width: 95%;
+    padding: 1%;
+    margin: 1.5%;
 }
 
 /*  ============
@@ -171,8 +164,73 @@ video {
     ============
 */
 
+
 /*  ===================
     Media Query Styles:
     ===================
 */
 
+@media screen and (max-width: 1800px) {
+    .Stockimages {
+        width: 450px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 1620px) {
+    .Stockimages {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .Stockimages {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .formcontainer {
+        width: 60%;
+    }
+
+    input {
+        left: 26%;
+        width: 70%;
+    }
+
+    .Stockimages {
+        width: 300px;
+        height: 200px;
+        margin: 1%;
+    }
+
+    header {
+        font-size: 2.5em;
+        padding: 2.75%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .formcontainer {
+        width: 80%;
+    }
+
+    input {
+        left: 30%;
+        width: 60%;
+    }
+
+    .Stockimages {
+        width: 200px;
+        height: 150px;
+    }
+
+    header {
+        font-size: 2em;
+        padding: 2.55%;
+    }
+}
