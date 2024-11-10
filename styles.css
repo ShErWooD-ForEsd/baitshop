@@ -56,7 +56,7 @@ header {
 nav,
 ul,
 li {
-    display: inline;
+    display: flex;
     list-style-type: none;
     font-size: 1.2em;
     align-items: center;
@@ -64,7 +64,7 @@ li {
     height: 100%;
     width: 95%;
     margin: auto;
-    padding: 15px;
+    padding: 5px;
 }
 
 nav a {
@@ -182,12 +182,20 @@ video {
         width: 400px;
         height: 300px;
     }
+
+    footer {
+        font-size: .9em;
+    }
 }
 
 @media screen and (max-width: 1450px) {
     .Stockimages {
         width: 350px;
         height: 250px;
+    }
+
+    footer {
+        font-size: .8em;
     }
 }
 
@@ -212,6 +220,14 @@ video {
         font-size: 2.5em;
         padding: 2.75%;
     }
+
+    footer {
+        font-size: .7em;
+    }
+
+    body {
+        margin-bottom: 4%;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -232,5 +248,13 @@ video {
     header {
         font-size: 2em;
         padding: 2.55%;
+    }
+
+    footer {
+        font-size: .6em;
+    }
+
+    body {
+        margin-bottom: 5%;
     }
 }
